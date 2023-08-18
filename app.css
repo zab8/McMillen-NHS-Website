@@ -1,0 +1,201 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles to the header */
+.header {
+    background-color: #3498db; /* Sky blue */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the larger top-middle section */
+.top-middle.larger {
+    
+    text-align: center;
+    padding: 160px 0; /* Double the padding for more space */
+    background-color: #f2f2f2; /* Light gray background color */
+}
+
+/* Add a background image to the top-middle section */
+.top-middle.larger {
+    background-image: url(https://3.files.edl.io/9e74/21/06/14/132329-6018cc62-0925-41eb-b3b6-44436df8d862.png);
+    background-size: cover; /* Adjust how the image covers the section */
+    background-position: center; /* Center the image within the section */
+    /* ... (other existing styles) ... */
+}
+
+/* Style for the image container */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the image within the container */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the circular logo */
+.logo-circle {
+    position: absolute;
+    width: 200px; /* Adjust the width of the circle */
+    height: 200px; /* Adjust the height of the circle */
+    background-image: url(file:///C:/Users/basel/Downloads/MHS-removebg-preview.png); /* Add the logo image URL here */
+    background-size: cover; /* Adjust the background image size */
+    border-radius: 50%; /* Make the circle circular with 50% radius */
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
+
+
+/* Welcome Text */
+.welcome-text {
+    margin-top: 60px; /* Increase the space between the logo and heading */
+    font-size: 60px; /* Triple the font size */
+    font-weight: bold; /* Make the text bold */
+    text-transform: lowercase; /* Convert text to lowercase */
+    color: rgb(255, 255, 255); /* Change the text color to cyan */
+    line-height: 1.2; /* Adjust line height for better spacing */
+    -webkit-text-stroke: 1.8px rgb(0, 0, 0); /* Black stroke for WebKit browsers */
+}
+
+/* Make "NATIONAL HONORS SOCIETY" bigger */
+.welcome-text span {
+    font-size: 90px; /* Adjust the font size for the span */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-transform: bold;
+}
+
+
+/* Boxes for Scholarship, Leadership, Character, and Service */
+.box {
+    display: inline-block;
+    width: 180px; /* Slightly wider width */
+    height: 180px; /* Slightly taller height */
+    margin: 30px auto; /* Center the boxes horizontally and add more spacing */
+    background-color: #709dff; /* Unique shade of blue */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 24px; /* Adjusted font size */
+    font-weight: bold; /* Add bold styling */
+    border-radius: 15px; /* More rounded corners */
+    position: relative; /* For positioning the icon */
+    overflow: hidden; /* Hide any overflow of the icon */
+    transition: transform 0.2s; /* Add a smooth transform effect on hover */
+}
+
+/* On hover, slightly scale up the box */
+.box:hover {
+    transform: scale(1.05);
+}
+
+/* Icon style */
+.box img {
+    width: 100px; /* Increase the width of the icon */
+    height: 100px; /* Increase the height of the icon */
+    position: absolute;
+    bottom: 20px; /* Adjust the position from the bottom */
+    left: 50%; /* Horizontally center the icon */
+    transform: translateX(-50%); /* Center the icon horizontally */
+}
+
+/* Text at the bottom of the box */
+.box p {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove default margin */
+    font-size: 16px; /* Adjust font size */
+}
+
+
+/* Bottom Middle Section */
+.bottom-middle {
+    background-color: #b7dbfe; /* Light blue background */
+    padding: 60px 0; /* Vertical and horizontal padding */
+    text-align: center;
+}
+
+/* Important Dates Title */
+.bottom-middle h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #333; /* Dark text color */
+    font-family: 'Playfair Display', serif; /* Fancy serif font */
+}
+
+/* Important Dates List */
+.important-dates-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List Items */
+.important-dates-list li {
+    font-size: 24px;
+    margin: 25px 0;
+    color: #333; /* Dark gray text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif; /* Fancy sans-serif font */
+}
+
+/* Bullet Icons for List Items */
+.important-dates-list li::before {
+    content: '\2022'; /* Bullet character */
+    font-size: 28px;
+    margin-right: 15px;
+    color: #011334; /* Dark blue bullet color */
+}
+
+/* Hover Effect for List Items */
+.important-dates-list li:hover {
+    color: #e67e22; /* Orange text color on hover */
+    font-weight: bold;
+}
+
+
+
+
+/* Style for the footer */
+.footer {
+    background-color: #3498db; /* Sky blue */
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* Styling for the Instagram and Email icons */
+.footer a {
+    display: inline-block;
+    margin: 0 15px; /* Add some horizontal spacing */
+}
+
+.footer a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s; /* Add a smooth transform effect on hover */
+}
+
+/* Hover effect for icons */
+.footer a:hover img {
+    transform: scale(1.2); /* Slightly increase size on hover */
+}
+
+/* Change cursor to pointer when hovering over links */
+.footer a {
+    cursor: pointer;
+}
+
+
