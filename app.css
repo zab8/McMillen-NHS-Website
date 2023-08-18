@@ -46,7 +46,7 @@ body, h1, p {
     position: absolute;
     width: 200px; /* Adjust the width of the circle */
     height: 200px; /* Adjust the height of the circle */
-    background-image: url(./file:///C:/Users/basel/Downloads/MHS-removebg-preview.png); /* Add the logo image URL here */
+    background-image: url(https://i.pinimg.com/564x/e4/74/cf/e474cfdfc12b6e512359eff103c68bac.jpg); /* Add the logo image URL here */
     background-size: cover; /* Adjust the background image size */
     border-radius: 50%; /* Make the circle circular with 50% radius */
     bottom: -40px;
